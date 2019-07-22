@@ -1,0 +1,56 @@
+body,ul li{
+  margin:0;
+  padding:0;
+}
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+	font-weight: 400
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Microsoft YaHei',sans-serif;
+  max-width: 1920px;
+  min-width: 1200px;
+}
+
+ol,ul {
+	list-style-image: none;
+	list-style-position: outside;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+a {
+	text-decoration: none;
+	border:none;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	border:none;
+}
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.cf:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0
+}
+
+.cf {
+	zoom: 1
+}
