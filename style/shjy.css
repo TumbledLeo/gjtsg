@@ -1,0 +1,216 @@
+.main {
+  padding-top: 18px;
+  background: url('../images/ty_bg_fff.jpg') no-repeat top;
+  background-size: contain;
+  background-color: #ffffff;
+}
+.main .inner .nav {
+  margin-top: 30px;
+}
+.main .inner .nav ul li {
+  float: left;
+  width: 130px;
+  height: 43px;
+  background: url('../images/wczs/wczs_nav_btn_bg.png') no-repeat center;
+  background-size: 100% 100%;
+  border-radius: 2px;
+  box-sizing: border-box;
+  line-height: 43px;
+  text-align: center;
+  margin-right: 30px;
+  overflow: hidden;
+}
+.main .inner .nav ul li.active {
+  background: url('../images/wczs/wczs_nav_btn_bg_active.png') no-repeat center;
+}
+.main .inner .nav ul li.active a {
+  color: #fff;
+}
+.main .inner .nav ul li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #009da3;
+  font-size: 20px;
+}
+.main .inner .lunBoBox {
+  margin-top: 33px;
+  position: relative;
+}
+.main .inner .lunBoBox .pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: -30px;
+  width: 100%;
+  text-align: center;
+}
+.main .inner .lunBoBox .swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  margin: 0 5px;
+  opacity: 0.8;
+  cursor: pointer;
+  border: solid 1px #009da3;
+}
+.main .inner .lunBoBox .swiper-active-switch {
+  background: #009da3;
+}
+.main .inner .lunBoBox .swiper-container {
+  height: 472px;
+}
+.main .inner .lunBoBox .swiper-wrapper {
+  height: 472px;
+  position: relative;
+}
+.main .inner .lunBoBox .swiper-wrapper .swiper-slide {
+  height: 472px !important;
+  overflow: hidden;
+}
+.main .inner .lunBoBox .swiper-wrapper .swiper-slide .info {
+  height: 472px;
+  background-color: #009da3;
+  padding: 60px;
+  box-sizing: border-box;
+}
+.main .inner .lunBoBox .swiper-wrapper .swiper-slide .info .l_pic {
+  width: 548px;
+  height: 355px;
+  float: left;
+  position: relative;
+}
+.main .inner .lunBoBox .swiper-wrapper .swiper-slide .info .l_pic > img {
+  width: 100%;
+  height: 100%;
+}
+.main .inner .lunBoBox .swiper-wrapper .swiper-slide .info .l_pic .tip {
+  width: 450px;
+  height: 70px;
+  background: url('../images/shjy/shjy_lunobo_tip_bg.png') no-repeat center;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  color: #fff;
+  font-size: 34px;
+  line-height: 70px;
+}
+.main .inner .lunBoBox .swiper-wrapper .swiper-slide .info .r_txt {
+  float: left;
+  margin-left: 75px;
+  max-width: 440px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.main .inner .lunBoBox .swiper-wrapper .swiper-slide .info .r_txt > p {
+  font-size: 22px;
+  line-height: 1.5;
+  max-height: 330px;
+  overflow: auto;
+  text-indent: 2em;
+  text-align: justify;
+}
+.main .inner .listBox {
+  margin-top: 80px;
+  padding-left: 17px;
+}
+.main .inner .listBox ul li {
+  margin-right: 20px;
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.main .inner .listBox ul li > a {
+  display: block;
+  text-align: justify;
+}
+.main .inner .listBox ul li > a .pic {
+  width: 360px;
+  height: 240px;
+  float: left;
+}
+.main .inner .listBox ul li > a .pic > img {
+  width: 100%;
+  height: 100%;
+}
+.main .inner .listBox ul li > a .r_txt {
+  margin-left: 20px;
+  float: left;
+  overflow: hidden;
+}
+.main .inner .listBox ul li > a .r_txt > h4 {
+  font-size: 22px;
+  color: #26969b;
+  margin-top: 20px;
+}
+.main .inner .listBox ul li > a .r_txt > p {
+  margin-top: 18px;
+  color: #333333;
+  width: 770px;
+  height: 120px;
+  overflow: auto;
+  text-indent: 2em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.main .inner .listBox ul li > a .r_txt .time {
+  position: absolute;
+  bottom: 20px;
+  left: 380px;
+  color: #333333;
+  font-size: 16px;
+}
+.main .inner .listBox ul li .btn {
+  color: #333333;
+  font-size: 14px;
+  position: absolute;
+  right: 13px;
+  bottom: 20px;
+  width: 55px;
+  height: 18px;
+  background: url('../images/wczs/wczs_list_r_jiantou.png') no-repeat;
+  padding-right: 15px;
+  box-sizing: border-box;
+  background-position: 38px 5px;
+}
+.main .inner .listBox .pageCode {
+  margin-top: 58px;
+  position: relative;
+  height: 100px;
+}
+.main .inner .listBox .pageCode .page {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.main .inner .listBox .pageCode .page em {
+  float: left;
+  width: 20px;
+  height: 35px;
+  cursor: pointer;
+}
+.main .inner .listBox .pageCode .page em:nth-child(1) {
+  margin-right: 20px;
+  background: url('../images/wczs/wczs_pageCode_l_btn_bg.png') no-repeat center;
+}
+.main .inner .listBox .pageCode .page em:last-child {
+  margin-left: 20px;
+  background: url('../images/wczs/wczs_pageCode_r_btn_bg.png') no-repeat center;
+}
+.main .inner .listBox .pageCode .page span {
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  width: 30px;
+  margin: 0 10px;
+  margin-top: 2px;
+  border-radius: 50%;
+  text-align: center;
+}
+.main .inner .listBox .pageCode .page span.active {
+  background: #009da3;
+  color: #fff;
+}

@@ -1,0 +1,43 @@
+/* 博物馆简介 */
+.main .commen p {
+  font-size: 22px;
+  color: #000;
+  text-indent: 2em;
+  line-height: 40px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.main .commen h2 {
+  text-align: center;
+  color: #26969b;
+  font-size: 40px;
+  line-height: 110px;
+}
+.main .js {
+  width: 100%;
+  height: 770px;
+  background: url(../images/erji/js1.jpg) no-repeat center;
+}
+.main .js h2 {
+  padding-top: 50px;
+}
+.main .sc {
+  width: 100%;
+  height: 790px;
+  background: url(../images/erji/js2.jpg) no-repeat center;
+}
+.main .yj {
+  width: 100%;
+  height: 608px;
+  background: url(../images/erji/js3.jpg) no-repeat center;
+}
+.main .jd {
+  width: 100%;
+  height: 830px;
+  background: url(../images/erji/js4.jpg) no-repeat center;
+}
+/*展览  */
+.zl {
+  width: 100%;
+  background: url(../images/erji/zl_bg.png) no-repeat top center;
+}

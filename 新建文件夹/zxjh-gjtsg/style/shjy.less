@@ -1,0 +1,292 @@
+.main {
+    padding-top: 18px;
+    background: url('../images/ty_bg_fff.jpg') no-repeat top;
+    background-size: contain;
+    background-color: #ffffff;
+    // 轮播分页样式
+
+
+
+
+    .inner {
+
+        // 导航
+        .nav {
+            margin-top: 30px;
+
+            ul {
+                li {
+                    float: left;
+                    width: 130px;
+                    height: 43px;
+                    background: url('../images/wczs/wczs_nav_btn_bg.png') no-repeat center;
+                    background-size: 100% 100%;
+                    border-radius: 2px;
+                    box-sizing: border-box;
+                    line-height: 43px;
+                    text-align: center;
+                    margin-right: 30px;
+                    overflow: hidden;
+
+                    &.active {
+                        background: url('../images/wczs/wczs_nav_btn_bg_active.png') no-repeat center;
+
+                        a {
+                            color: #fff;
+                        }
+                    }
+
+                    >a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        color: #009da3;
+                        font-size: 20px;
+                    }
+
+                }
+            }
+        }
+
+        // 轮播
+        .lunBoBox {
+            margin-top: 33px;
+            position: relative;
+
+            // overflow: hidden;
+
+            .pagination {
+                position: absolute;
+                z-index: 20;
+                bottom: -30px;
+                width: 100%;
+                text-align: center;
+            }
+
+            .swiper-pagination-switch {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 8px;
+                // background: #555;
+                margin: 0 5px;
+                opacity: 0.8;
+                // border: 1px solid #fff;
+                cursor: pointer;
+                border: solid 1px #009da3;
+            }
+
+            .swiper-active-switch {
+                background: #009da3;
+            }
+
+            .swiper-container {
+                height: 472px;
+            }
+
+            .swiper-wrapper {
+                height: 472px;
+                position: relative;
+
+                .swiper-slide {
+                    height: 472px !important;
+                    overflow: hidden;
+
+                    .info {
+                        height: 472px;
+                        background-color: #009da3;
+                        padding: 60px;
+                        box-sizing: border-box;
+
+                        .l_pic {
+                            width: 548px;
+                            height: 355px;
+                            float: left;
+                            position: relative;
+
+                            >img {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                            .tip {
+                                width: 450px;
+                                height: 70px;
+                                background: url('../images/shjy/shjy_lunobo_tip_bg.png') no-repeat center;
+                                background-size: 100% 100%;
+                                position: absolute;
+                                top: 40px;
+                                left: 0px;
+                                color: #fff;
+                                font-size: 34px;
+                                line-height: 70px;
+                            }
+                        }
+
+                        .r_txt {
+                            float: left;
+                            margin-left: 75px;
+                            max-width: 440px;
+                            color: #ffffff;
+                            padding-top: 10px;
+
+
+                            >p {
+
+                                font-size: 22px;
+                                line-height: 1.5;
+                                max-height: 330px;
+                                overflow: auto;
+                                text-indent: 2em;
+                                text-align: justify;
+
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        // 列表
+        .listBox {
+            margin-top: 80px;
+            padding-left: 17px;
+
+            ul {
+                li {
+
+
+
+                    // background: #fff;
+                    margin-right: 20px;
+                    margin-top: 20px;
+                    position: relative;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #d9d9d9;
+
+
+
+                    >a {
+                        display: block;
+                        text-align: justify;
+
+                        .pic {
+                            width: 360px;
+                            height: 240px;
+                            // background: pink;
+                            float: left;
+                            >img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+
+                        .r_txt {
+                            margin-left: 20px;
+                            float: left;
+                            overflow: hidden;
+                            // position: relative;
+
+                            >h4 {
+                                font-size: 22px;
+                                color: #26969b;
+                                margin-top: 20px;
+                            }
+
+                            >p {
+                             
+
+                      
+                                margin-top: 18px;
+                                color: #333333;
+                                // line-height: 1.5;
+                                width: 770px;
+                                height: 120px;
+                                overflow: auto;
+                                text-indent: 2em;
+                                font-size: 16px;
+                                line-height: 1.5;
+                            }
+                            .time{
+                                position: absolute;
+                                bottom: 20px;
+                                left: 380px;
+                                color: #333333;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .btn {
+                        color: #333333;
+                        font-size: 14px;
+                        position: absolute;
+                        right: 13px;
+                        bottom: 20px;
+                        width: 55px;
+                        height: 18px;
+                        background: url('../images/wczs/wczs_list_r_jiantou.png') no-repeat;
+                        padding-right: 15px;
+                        box-sizing: border-box;
+                        background-position: 38px 5px;
+                    }
+
+
+
+                }
+            }
+
+            .pageCode {
+                margin-top: 58px;
+                // margin-bottom: 100px;
+                position: relative;
+                height: 100px;
+
+                .page {
+                    position: absolute;
+                    left: 50%;
+                    transform: translate(-50%);
+
+                    em {
+                        float: left;
+                        width: 20px;
+                        height: 35px;
+                        // background: #000;
+
+                        &:nth-child(1) {
+                            margin-right: 20px;
+                            background: url('../images/wczs/wczs_pageCode_l_btn_bg.png') no-repeat center;
+
+                        }
+
+                        &:last-child {
+                            margin-left: 20px;
+                            background: url('../images/wczs/wczs_pageCode_r_btn_bg.png') no-repeat center;
+
+                        }
+
+                        cursor: pointer;
+                    }
+
+                    span {
+                        cursor: pointer;
+                        height: 30px;
+                        line-height: 30px;
+                        float: left;
+                        width: 30px;
+                        margin: 0 10px;
+                        margin-top: 2px;
+                        border-radius: 50%;
+                        text-align: center;
+
+                        &.active {
+                            background: #009da3;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

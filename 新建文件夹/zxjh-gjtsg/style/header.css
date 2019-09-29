@@ -1,0 +1,240 @@
+header {
+  height: 110px;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  position: relative;
+  z-index: 999;
+}
+header a.logo {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 44px;
+}
+header .logo {
+  margin-top: 24px;
+}
+header .wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+header ul {
+  width: 842px;
+}
+header ul li {
+  float: left;
+  width: 100px;
+  height: 107px;
+  text-align: center;
+  margin: 0 20px;
+}
+header ul li a {
+  color: #000;
+  font-size: 20px;
+}
+header ul li .big {
+  line-height: 108px;
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+}
+header ul li .big:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  background-color: #009da3;
+  width: 0;
+  height: 2px;
+  transition: width 0.15s ease-out;
+}
+header ul li .sml {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 108px;
+  left: 0;
+  padding-top: 30px;
+  background: #fff;
+  box-shadow: 0px 6px 10px #e0e0e0 inset;
+}
+header ul li .sml ol {
+  margin: 0 auto;
+}
+header ul li .sml li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  float: left;
+  margin: 0 auto;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+header ul li .sml li a {
+  font-size: 20px;
+}
+header ul li .sml li:last-child {
+  margin-bottom: 30px;
+}
+header ul li .sml li:hover a {
+  border-bottom: 1px solid #000;
+}
+header ul li .s5 {
+  width: 840px;
+  margin: 0;
+  float: right;
+}
+header ul li .s4 {
+  width: 480px;
+  padding-left: 888px;
+}
+header ul li .s3 {
+  width: 520px;
+  padding-left: 600px;
+}
+header ul li .s2 {
+  width: 274px;
+  padding-left: 312px;
+}
+header ul li .s1 {
+  width: 420px;
+  padding-left: 34px;
+}
+header ul li.active .big {
+  color: #009da3;
+}
+header ul li:hover .big:after {
+  width: 80px;
+}
+header ul li:hover .sml {
+  display: block;
+}
+.footer {
+  height: 250px;
+  width: 100%;
+  padding-top: 50px;
+  font-family: PingFangSC-Regular, 'Microsoft YaHei', sans-serif;
+}
+.footer h2 {
+  font-size: 28px;
+  line-height: 78px;
+  color: #000;
+}
+.footer .go li a {
+  display: inline-block;
+  line-height: 40px;
+  color: #000;
+  font-size: 18px;
+}
+.footer .go li a:hover {
+  color: #369d9d;
+}
+.footer .other {
+  margin-left: 68px;
+  margin-top: 76px;
+}
+.footer .exp {
+  width: 254px;
+  height: 40px;
+  display: block;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 40px;
+  float: right;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.footer .exp:hover {
+  background: #ebe4df;
+  border: 1px solid #ebe4df;
+  color: #ae7950;
+}
+.ww,
+.wxb {
+  margin-top: 18px;
+}
+.wxb .wx {
+  width: 41px;
+  height: 41px;
+  background: url(../images/wx.jpg) no-repeat center;
+}
+.wxb .wb {
+  width: 41px;
+  height: 41px;
+  background: url(../images/wb.jpg) no-repeat center;
+}
+.wxb .wx:hover {
+  background: url(../images/wx1.jpg) no-repeat center;
+}
+.wxb .wb:hover {
+  background: url(../images/wb1.jpg) no-repeat center;
+}
+.wxb a {
+  display: inline-block;
+  margin-right: 16px;
+}
+.ww .about {
+  width: 240px;
+  height: 45px;
+  background: #009da3;
+  display: block;
+  margin: 28px auto;
+  color: #fff;
+  line-height: 45px;
+  font-size: 20px;
+  text-indent: 40px;
+  text-align: left;
+  position: relative;
+  transition: all 1s;
+  margin-right: 0;
+}
+.ww .about::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 74px;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(0, 147, 153, 0), rgba(0, 147, 153, 0) 28%, rgba(0, 147, 153, 0) 29%, #008383 0, #008383 0, #008383 0, #008383);
+  content: "";
+}
+.ww .about::after {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  z-index: 1;
+  margin-right: 14px;
+  width: 20px;
+  height: 20px;
+  content: '';
+  background: url(../images/22.png) no-repeat right;
+}
+.ww .about:hover {
+  box-shadow: 0 0 0 2px #009da3;
+  background: #006c70;
+}
+.ww .about:hover::after {
+  animation: mymove 1s infinite linear	;
+}
+@keyframes mymove {
+  from {
+    right: 5px;
+  }
+  to {
+    right: 0px;
+  }
+}
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer .right {
+  text-align: right;
+}
+.footer .right h1 {
+  color: #000;
+  font-size: 18px;
+}

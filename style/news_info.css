@@ -1,0 +1,58 @@
+.main {
+  padding-top: 18px;
+  background: url('../images/ty_bg_f6f6f6.jpg') no-repeat top;
+  background-size: contain;
+  background-color: #f6f6f6;
+}
+.main .inner {
+  overflow: hidden;
+  padding-top: 80px;
+}
+.main .inner > h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #009da3;
+}
+.main .inner > h4 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: #009da3;
+}
+.main .inner .info {
+  margin-top: 70px;
+  padding: 0 50px;
+}
+.main .inner .info > p {
+  line-height: 2;
+  font-size: 16px;
+  text-indent: 2em;
+  text-align: justify;
+}
+.main .inner .info > p.end {
+  margin-bottom: 100px;
+}
+.main .inner .info .picBox {
+  margin-top: 40px;
+}
+.main .inner .info .picBox .pic {
+  width: 650px;
+  height: 430px;
+  margin: 0 auto;
+}
+.main .inner .info .picBox > p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.main .inner .end {
+  float: right;
+  font-size: 24px;
+  text-align: left;
+  margin-top: 70px;
+  margin-bottom: 200px;
+  padding-right: 20px;
+}
+.main .inner .end > p {
+  margin-top: 10px;
+}

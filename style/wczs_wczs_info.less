@@ -1,0 +1,227 @@
+// 放大镜
+.lanrenzhijia {
+    width: 480px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.jqzoom {
+    float: left;
+    border: none;
+    position: relative;
+    padding: 0px;
+    cursor: pointer;
+    margin: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+
+    >img {
+        width: 100%;
+        height: 100%;
+    }
+
+    box-sizing: border-box;
+}
+
+
+
+.zoomdiv {
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 480px;
+    height: 480px;
+    background: #ccc;
+    border: 1px solid #ccc;
+    display: none;
+    text-align: center;
+    overflow: hidden;
+    // >img{
+    //     width: 100%;
+    //     height: 100%;
+    // }
+    box-sizing: border-box;
+}
+
+.jqZoomPup {
+    z-index: 10;
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 239px!important;
+    height: 239px!important;
+    border: 1px solid #aaa;
+    background: #dbc194;
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    filter: alpha(Opacity=70);
+}
+
+/*图片小图预览列表*/
+.spec-preview {
+    width: 480px;
+    height: 480px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+}
+
+.spec-scroll {
+    clear: both;
+    margin-top: 30px;
+    width: 480px;
+}
+
+.spec-scroll .prev {
+    float: left;
+    margin-right: 4px;
+}
+
+.spec-scroll .next {
+    float: right;
+}
+
+.spec-scroll .prev,
+.spec-scroll .next {
+    display: block;
+
+    text-align: center;
+    width: 56px;
+    height: 80px;
+    line-height: 80px;
+    // border: 1px solid #CCC;
+    background: #EBEBEB;
+    cursor: pointer;
+    text-decoration: none;
+    background: url('../images/wczs/detail_jiantou_l_bg.png') no-repeat center;
+}
+
+.spec-scroll .next {
+    background: url('../images/wczs/detail_jiantou_r_bg.png') no-repeat center;
+
+}
+
+.spec-scroll .items {
+    float: left;
+    position: relative;
+    width: 356px;
+    height: 83px;
+    overflow: hidden;
+    margin-left: 5px;
+
+    img {
+        width: 80px;
+        border: 1px solid #b2b2b2;
+    }
+
+    position: relative;
+}
+
+
+
+
+
+.spec-scroll .items img:hover {
+
+    border: 1px solid #009da3;
+}
+
+
+
+
+
+.main {
+    background: url('../images/ty_bg_fff.jpg') no-repeat top;
+    background-size: contain;
+    background-color: #ffffff;
+    padding-bottom: 110px;
+    padding-top: 18px;
+    .inner {
+        margin-top: 50px;
+
+        .topInfo {
+            // 左侧放大镜
+
+            .l_fdj {
+                float: left;
+            }
+
+            // 右侧规格
+            .r_ruleBox {
+                color: #373737;
+                float: right;
+                margin-left: 35px;
+                padding-top: 50px;
+
+                >h4 {
+                    font-size: 48px;
+                    color: #009da3;
+
+                    width: 660px;
+                    padding-bottom: 40px;
+                    border-bottom: 1px solid #cbcbcb;
+
+
+                }
+
+                .txt {
+                    width: 660px;
+                    margin-top: 25px;
+                    line-height: 2;
+                    padding-right: 20px;
+                    box-sizing: border-box;
+                    font-size: 22px;
+                }
+
+                .tip {
+                    color: #009da3;
+                    font-size: 20px;
+                    margin-top: 50px;
+                }
+
+            }
+        }
+
+        .info {
+            margin-top: 50px;
+            padding-top: 50px;
+            border-top: 1px solid #d9d9d9;
+
+            >p {
+                padding: 0 24px;
+                font-size: 18px;
+                line-height: 2;
+                text-align: justify;
+                text-indent: 2em;
+
+            }
+
+            .pic {
+                width: 644px;
+                height: 468px;
+                margin: 0 auto;
+                // background: #000;
+                margin-top: 20px;
+                &:first-child{
+                    margin-top: 40px;
+
+                }
+                >img{
+                    width: 100%;
+                    height: 100%;
+                }
+      
+
+
+            }
+        }
+    }
+
+
+
+}

@@ -1,0 +1,83 @@
+body,ul li,p{
+  margin:0;
+  padding:0;
+}
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+	font-weight: 400
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Microsoft YaHei',sans-serif;
+  max-width: 1920px;
+  min-width: 1200px;
+}
+
+ol,ul {
+	list-style-image: none;
+	list-style-position: outside;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+a {
+	text-decoration: none;
+	border:none;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	border:none;
+}
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.cf:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0
+}
+
+.cf {
+	zoom: 1
+}
+
+.mbx {
+	width:1200px;
+	margin:0 auto;
+}
+.mbx li {
+
+  float: left;
+  margin-right: 46px;
+  position: relative;
+}
+.mbx li a {
+  font-size: 16px;
+  color: #000;
+}
+.mbx li:after {
+  content: '';
+  position: absolute;
+  right: -27px;
+  top: 4px;
+  width: 14px;
+  height: 12px;
+  background: url(../images/erji/jian.png) no-repeat center;
+}
+.mbx li:last-child:after {
+  display: none;
+}
