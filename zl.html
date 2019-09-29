@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>基本陈列展览</title>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="lib/idangerous.swiper.css">
+  <link rel="stylesheet" href="style/erji.css">
+</head>
+<body>
+    <div id="header"></div>
+    
+  <div class="zl">
+      <ul class="mbx cf "><li><a href="">首页</a></li>
+        <li><a href="">基本陈列展览</a></li>
+      </ul>
+    <div class="inner">
+        <div class="swiper-container " style="">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="des">
+                  <img src="images/erji/zl1.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="des">
+                    <img src="images/erji/zl1.jpg" alt="">
+                  </div>
+                </div>
+            </div>
+            <div class="pagination"></div>
+          </div>
+          <div class="xjzl">
+              <h2>新近展览</h2> 
+            <ul>
+              <li class="cf">
+                <img src="images/erji/zl0.jpg" alt="">
+                <h3>“中华传统文化典籍保护传承大展”在国家图书馆开展</h3>
+                <p>为庆祝中华人民共和国成立70周年，9月7日，由文化和旅游部、国家文物局主办，国家图书馆（国家古籍保护中心、国家典籍博物馆）承办，全国高等院校古籍整理研究工作委员会及各参展单位协办的“中华传统文化典籍保护传承大展”在国家典籍博物馆开展。</p>
+                <a href="zl_about.html" class="more">展览详情</a>
+              </li>
+              <li class="cf">
+                  <img src="images/erji/zl2.jpg" alt="">
+                  <h3>旷世宏编 文献大成——国家图书馆藏《永乐大典》文献展</h3>
+                  <p>本展览展出国家图书馆藏《永乐大典》原件12册，其他珍贵善本古籍、舆图、名家手稿，不同时期出版的《永乐大典》影印本及海外收藏《永乐大典》影印本等，为公众勾勒这部大典飘摇多舛的命运，展现这部宏编巨著的不朽光辉。</p>
+                  <a href="zl_about.html" class="more">展览详情</a>
+                </li>
+                <li class="cf">
+                    <img src="images/erji/zl3.jpg" alt="">
+                    <h3>从《诗经》到《红楼梦》——那些年我们读过的经典</h3>
+                    <p>展览撷英集萃，特沿用历史发展的脉络呈现，分为先秦、秦汉、魏晋南北朝、隋唐五代、宋代、元代、明代、清代八个部分，通过各个时期人物及作品的简介，串联起中国文学发展的历程，为观众呈现中国古代文学的恒久魅力。</p>
+                    <a href="zl_about.html" class="more">展览详情</a>
+                  </li>
+                  <li class="cf">
+                      <img src="images/erji/zl4.jpg" alt="">
+                      <h3>从莎士比亚到福尔摩斯：大英图书馆的珍宝（已闭展）</h3>
+                      <p>本次展览以英国标志性作家以及他们在中国广受喜爱的翻译作品为对象，其中来自大英图书馆的展品皆为文学与音乐作品的孤本原件，极其珍贵。通过与中国国家图书馆的通力协作，这批馆藏珍品将首次同其中文译本、改编本等相关作品联袂展出。</p>
+                      <a href="zl_about.html" class="more">展览详情</a>
+                    </li>
+                    <li class="cf">
+                        <img src="images/erji/zl5.jpg" alt="">
+                        <h3>再遇芥子园——《芥子园画传》与当代绘画名家对话展（已闭展）</h3>
+                        <p>《芥子园画传》是学习中国画技法的重要入门书，是我国古代版本最多、印数最大、影响最巨的画谱，是古代彩色套印技术的典范，堪称我国古代画谱的巅峰之作。问世后不久，不光在中国引发文人及丹青大家收藏，更蜚声国际，众多学者对其进行翻译研究，其中，江户时代的日本画家所受影响较为深远。</p>
+                        <a href="zl_about.html" class="more">展览详情</a>
+                      </li>
+            </ul>
+            <ol class="cf count">
+              <li><a href="#"><img src="images/erji/back.png" alt=""></a></li>
+              <li class="num active"><a href="#">1</a></li>
+              <li class="num"><a href="#">2</a></li>
+              <li class="num"><a href="#">3</a></li>
+              <li><a href="#"><img src="images/erji/next.png" alt=""></a></li>
+            </ol>
+          </div>
+    </div>
+      
+  </div>
+  <div id="footer"></div>
+  <script src="lib/jquery-3.2.1.min.js"></script>
+  <script src="lib/idangerous.swiper.min.js"></script>
+  <script>
+      $(function() {
+        $('#header').load('header.html');
+        $('#footer').load('footer.html');
+      })
+    </script>
+  <script>
+   var mySwiper = new Swiper('.swiper-container',{
+    autoplay : 3000,//可选选项，自动滑动
+    loop : true,//可选选项，开启循环
+    pagination : '.pagination',
+    paginationClickable :true,
+    })
+  </script>
+</body>
+</html>

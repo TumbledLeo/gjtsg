@@ -1,4 +1,4 @@
-body,ul li{
+body,ul li,p{
   margin:0;
   padding:0;
 }
@@ -53,4 +53,32 @@ img {
 
 .cf {
 	zoom: 1
+}
+
+.mbx {
+	width:1200px;
+	margin:0 auto;
+}
+.mbx li {
+
+  float: left;
+  margin-right: 46px;
+	position: relative;
+	line-height: 60px;
+}
+.mbx li a {
+  font-size: 16px;
+  color: #000;
+}
+.mbx li:after {
+  content: '';
+  position: absolute;
+  right: -27px;
+  top: 23px;
+  width: 14px;
+  height: 12px;
+  background: url(../images/erji/jian.png) no-repeat center;
+}
+.mbx li:last-child:after {
+  display: none;
 }
